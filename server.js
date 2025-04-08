@@ -8,3 +8,4 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
     console.log("Server pokrenut na http://localhost:3000");
 });
+app.use(express.static('public'));
